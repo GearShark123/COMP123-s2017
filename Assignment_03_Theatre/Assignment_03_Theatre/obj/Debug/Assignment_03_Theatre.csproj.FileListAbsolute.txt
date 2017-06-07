@@ -1,1 +1,2 @@
 C:\Users\lyles\Desktop\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config
+C:\Users\lyles\Desktop\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config
