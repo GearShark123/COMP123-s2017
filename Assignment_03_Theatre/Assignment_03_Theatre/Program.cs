@@ -10,6 +10,7 @@ namespace Assignment_03_Theatre
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
         }
     }
 }
