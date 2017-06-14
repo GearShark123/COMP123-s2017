@@ -8,5 +8,36 @@ namespace Assignment_03_Theatre
 {
     class Theatre
     {
+        private List<Show> Shows { get; set; }
+        private string Name { get; set; }
+
+        public Theatre(string name)
+        {
+
+        }
+
+        public void AddShow(Show show)
+        {
+
+        }
+
+        public void PrintShows()
+        {
+        }
+
+        public void PrintShows(MovieGenre genre)
+        {
+
+        }
+
+        public void PrintShows(MovieDay day)
+        {
+
+        }
+
+        public void PrintShows(Time time)
+        {
+
+        }
     }
 }
