@@ -23,6 +23,10 @@ namespace Assignment_03_Theatre
 
         public void PrintShows()
         {
+            foreach (Show s in Shows)
+            {
+                Console.WriteLine(s);
+            }
         }
 
         public void PrintShows(MovieGenre genre)
