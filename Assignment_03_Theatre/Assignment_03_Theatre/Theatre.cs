@@ -4,6 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[Flags]
+public enum MovieDay
+{
+    Sun = 0,
+    Mon = 1,
+    Tue = 2,
+    Wed = 4,
+    Thu = 8,
+    Fri = 16,
+    Sat = 32
+}
+
 namespace Assignment_03_Theatre
 {
     class Theater
@@ -13,13 +25,14 @@ namespace Assignment_03_Theatre
 
         public Theater(string name)
         {
-            // Assigns the argument to the property
-            // Initialize the Shows property to a new list of show
+            Shows = new List<Show>(); 
+
+            Name = name;
         }
 
         public void AddShow(Show show)
         {
-            // Add show to the list
+            Shows.Add(show);
         }
 
         public void PrintShows()
