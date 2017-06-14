@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// enum MovieDay
+
 namespace Assignment_03_Theatre
 {
     class Program

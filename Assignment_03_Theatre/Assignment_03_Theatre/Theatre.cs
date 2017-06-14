@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace Assignment_03_Theatre
 {
-    class Theatre
+    class Theater
     {
         private List<Show> Shows { get; set; }
         private string Name { get; set; }
 
-        public Theatre(string name)
+        public Theater(string name)
         {
-
+            // Assigns the argument to the property
+            // Initialize the Shows property to a new list of show
         }
 
         public void AddShow(Show show)
         {
-
+            // Add show to the list
         }
 
         public void PrintShows()

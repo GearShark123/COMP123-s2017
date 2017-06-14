@@ -46,7 +46,7 @@ namespace Assignment_03_Theatre
 
         public override string ToString()
         {
-            return string.Format(""); // Not sure about this.
+            return string.Format("Title: {0}, Length: {1}", Title, Length); 
         }
     }
 }
