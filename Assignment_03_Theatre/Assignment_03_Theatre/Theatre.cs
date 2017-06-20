@@ -56,7 +56,7 @@ namespace Assignment_03_Theatre
         {
             foreach (Show s in Shows)
             {
-                if (s.Day == day)
+                if (s. == day)
                     Console.WriteLine(s);
             }
         }
@@ -68,6 +68,15 @@ namespace Assignment_03_Theatre
                 if (s.Time == time)
                     Console.WriteLine(s);
             }
+        }
+
+        public void PrintShows(string actor)
+        {
+            //foreach (string s in Shows)
+            //{
+            //    if (s.Day == day)
+            //        Console.WriteLine(s);
+            //}
         }
     }
 }
