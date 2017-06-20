@@ -56,7 +56,7 @@ namespace Assignment_03_Theatre
         {
             foreach (Show s in Shows)
             {
-                if (s. == day)
+                if (s.Day == day)
                     Console.WriteLine(s);
             }
         }
@@ -72,9 +72,9 @@ namespace Assignment_03_Theatre
 
         public void PrintShows(string actor)
         {
-            //foreach (string s in Shows)
+            //foreach ( s in Shows)
             //{
-            //    if (s.Day == day)
+            //    if (s.Cast == actor)
             //        Console.WriteLine(s);
             //}
         }
