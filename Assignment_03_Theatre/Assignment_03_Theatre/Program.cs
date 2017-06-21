@@ -17,7 +17,7 @@ namespace Assignment_03_Theatre
             Show s1 = new Show(terminator, MovieDay.Mon, 5.95, new Time(11, 35, 0));
 
             Console.WriteLine(s1);                                   //displays one object
-            Theater eglinton = new Theater("Cineplex");
+            Theatre eglinton = new Theatre("Cineplex");
             eglinton.AddShow(s1);
             eglinton.PrintShows();                                   //displays one object
 
