@@ -20,7 +20,7 @@ namespace Assignment_03_Theatre
             Theatre eglinton = new Theatre("Cineplex");
             eglinton.AddShow(s1);
             eglinton.PrintShows();                                   //displays one object
-
+            Console.WriteLine();
             Movie godzilla = new Movie("Godzilla 2014", 123);
             godzilla.AddActor("Aaron Johnson");
             godzilla.AddActor("Ken Watanabe");
@@ -76,18 +76,19 @@ namespace Assignment_03_Theatre
             eglinton.AddShow(s2);
 
             eglinton.PrintShows();                                       //displays ten objects
-
+            Console.WriteLine();
             eglinton.PrintShows(MovieDay.Sun);                           //displays six objects
-
+            Console.WriteLine();
             eglinton.PrintShows(MovieGenre.Action);                      //displays seven objects
-
+            Console.WriteLine();// 5
             eglinton.PrintShows(MovieGenre.Romance);                     //displays three objects
-
+            Console.WriteLine();// Missing
             eglinton.PrintShows(MovieGenre.Action | MovieGenre.Romance); //displays one object
-
+            Console.WriteLine();
             eglinton.PrintShows("Morgan Freeman");                       //displays three objects
-
+            Console.WriteLine();
             eglinton.PrintShows(new Time(14, 30, 0));                    //displays two objects
+            Console.WriteLine();// Missing
         }
     }
 }
