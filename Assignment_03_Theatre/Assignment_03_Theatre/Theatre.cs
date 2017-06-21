@@ -25,9 +25,8 @@ namespace Assignment_03_Theatre
 
         public Theater(string name)
         {
-            Shows = new List<Show>(); 
-
             Name = name;
+            Shows = new List<Show>();
         }
 
         public void AddShow(Show show)
@@ -72,11 +71,11 @@ namespace Assignment_03_Theatre
 
         public void PrintShows(string actor)
         {
-            //foreach ( s in Shows)
-            //{
-            //    if (s.Cast == actor)
-            //        Console.WriteLine(s);
-            //}
+            foreach (Show s in Shows)
+            {
+                if (s.Movie.Cast.Contains(actor))
+                    Console.WriteLine(s);
+            }
         }
     }
 }
