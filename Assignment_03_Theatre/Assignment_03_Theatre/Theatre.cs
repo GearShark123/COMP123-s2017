@@ -4,14 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[Flags]
+public enum MovieDay
+{
+    Sun = 0,
+    Mon = 1,
+    Tue = 2,
+    Wed = 4,
+    Thu = 8,
+    Fri = 16,
+    Sat = 32
+}
+
 namespace Assignment_03_Theatre
 {
-    class Theatre
+    class Theater
     {
         private List<Show> Shows { get; set; }
         private string Name { get; set; }
 
-        public Theatre(string name)
+        public Theater(string name)
         {
             Name = name;
             Shows = new List<Show>();
