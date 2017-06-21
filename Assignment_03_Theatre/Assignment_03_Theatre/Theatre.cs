@@ -18,12 +18,12 @@ public enum MovieDay
 
 namespace Assignment_03_Theatre
 {
-    class Theater
+    class Theatre
     {
         private List<Show> Shows { get; set; }
         private string Name { get; set; }
 
-        public Theater(string name)
+        public Theatre(string name)
         {
             Name = name;
             Shows = new List<Show>();
