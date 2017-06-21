@@ -25,7 +25,7 @@ namespace Assignment_03_Theatre
 
         public override string ToString()
         {
-            return string.Format("{0}\nat {1} {2} {3:c}", Movie, Day, Time, Price);
+            return string.Format("{0}\n\tat {1} {2} {3:c}", Movie, Day, Time, Price);
         }
     }
 }
