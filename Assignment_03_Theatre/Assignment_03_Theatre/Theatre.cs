@@ -13,12 +13,13 @@ namespace Assignment_03_Theatre
 
         public Theatre(string name)
         {
-
+            Name = name;
+            Shows = new List<Show>();
         }
 
         public void AddShow(Show show)
         {
-
+            Shows.Add(show);
         }
 
         public void PrintShows()
@@ -52,6 +53,15 @@ namespace Assignment_03_Theatre
             foreach (Show s in Shows)
             {
                 if (s.Time == time)
+                    Console.WriteLine(s);
+            }
+        }
+
+        public void PrintShows(string actor)
+        {
+            foreach (Show s in Shows)
+            {
+                if (s.Movie.Cast.Contains(actor))
                     Console.WriteLine(s);
             }
         }
