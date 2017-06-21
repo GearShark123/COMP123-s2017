@@ -64,7 +64,7 @@ namespace Assignment_03_Theatre
         {
             foreach (Show s in Shows)
             {
-                if (s.Time == time)
+                if (s.Time.Hours == time.Hours)
                     Console.WriteLine(s);
             }
         }

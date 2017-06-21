@@ -88,7 +88,7 @@ namespace Assignment_03_Theatre
             eglinton.PrintShows("Morgan Freeman");                       //displays three objects
             Console.WriteLine();
             eglinton.PrintShows(new Time(14, 30, 0));                    //displays two objects
-            Console.WriteLine();// No shows with this time!
+            Console.WriteLine();// Fixed
         }
     }
 }
