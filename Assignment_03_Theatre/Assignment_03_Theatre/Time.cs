@@ -21,7 +21,7 @@ namespace Assignment_03_Theatre
 
         public override string ToString()
         {
-            return string.Format("{0}:{1}:{2}",
+            return string.Format("{0}:{1:00}:{2:00}",
                 Hours, Minutes, Seconds);
         }
     }
