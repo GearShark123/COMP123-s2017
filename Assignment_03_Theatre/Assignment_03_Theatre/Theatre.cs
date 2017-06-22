@@ -46,7 +46,7 @@ namespace Assignment_03_Theatre
         {
             foreach (Show s in Shows)
             {
-                if (s.Movie.Genre == genre)
+                if (s.Movie.Genre.HasFlag(genre) == true)
                     Console.WriteLine(s);
             }
         }

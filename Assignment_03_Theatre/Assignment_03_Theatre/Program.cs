@@ -80,15 +80,15 @@ namespace Assignment_03_Theatre
             eglinton.PrintShows(MovieDay.Sun);                           //displays six objects
             Console.WriteLine();
             eglinton.PrintShows(MovieGenre.Action);                      //displays seven objects
-            Console.WriteLine();// Skipped "Judgement Day" & "The Mask of Zorro"
+            Console.WriteLine();
             eglinton.PrintShows(MovieGenre.Romance);                     //displays three objects
-            Console.WriteLine();// Missing
+            Console.WriteLine();
             eglinton.PrintShows(MovieGenre.Action | MovieGenre.Romance); //displays one object
             Console.WriteLine();
             eglinton.PrintShows("Morgan Freeman");                       //displays three objects
             Console.WriteLine();
             eglinton.PrintShows(new Time(14, 30, 0));                    //displays two objects
-            Console.WriteLine();// Fixed
+            Console.WriteLine();
         }
     }
 }
