@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/* Assignment 3: Theatre
+   By: Lyle Spurrell, Angelica Catalan, Jason McVittie, Ahammed Salim
+ */
+
 namespace Assignment_03_Theatre
 {
     class Program
