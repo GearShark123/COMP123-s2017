@@ -1,8 +1,2 @@
-C:\Users\lyles\Desktop\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config
-C:\Users\lyles\Desktop\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config
-D:\Docs\School\Centennial College\Semester 2 v2\COMP 123\assignment03\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config
-D:\Docs\School\Centennial College\Semester 2 v2\COMP 123\assignment03\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe
-D:\Docs\School\Centennial College\Semester 2 v2\COMP 123\assignment03\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.pdb
-D:\Docs\School\Centennial College\Semester 2 v2\COMP 123\assignment03\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\obj\Debug\Assignment_03_Theatre.csprojResolveAssemblyReference.cache
-D:\Docs\School\Centennial College\Semester 2 v2\COMP 123\assignment03\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\obj\Debug\Assignment_03_Theatre.exe
-D:\Docs\School\Centennial College\Semester 2 v2\COMP 123\assignment03\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\obj\Debug\Assignment_03_Theatre.pdb
+C:\Users\lyles\Desktop\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config
+C:\Users\lyles\Desktop\COMP123-s2017\Assignment_03_Theatre\Assignment_03_Theatre\bin\Debug\Assignment_03_Theatre.exe.config

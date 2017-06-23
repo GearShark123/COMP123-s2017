@@ -4,6 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+[Flags]
+public enum MovieDay
+{
+    Sun = 0,
+    Mon = 1,
+    Tue = 2,
+    Wed = 4,
+    Thu = 8,
+    Fri = 16,
+    Sat = 32
+}
+
 namespace Assignment_03_Theatre
 {
     class Theatre
@@ -34,7 +46,7 @@ namespace Assignment_03_Theatre
         {
             foreach (Show s in Shows)
             {
-                if (s.Movie.Genre == genre)
+                if (s.Movie.Genre.HasFlag(genre) == true)
                     Console.WriteLine(s);
             }
         }
@@ -52,7 +64,7 @@ namespace Assignment_03_Theatre
         {
             foreach (Show s in Shows)
             {
-                if (s.Time == time)
+                if (s.Time.Hours == time.Hours)
                     Console.WriteLine(s);
             }
         }
